@@ -1,0 +1,60 @@
+
+.todo-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+
+.input-group-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap:10px;
+}
+
+
+.input-field {
+  width: 160px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+
+.add-button {
+  margin-top: 10px;
+  width: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.list-item-buttons {
+  margin-right: 30%;
+}
+
+.list-item-buttons button {
+  margin-left: 30%;
+}
+
+
+.list-group-container {
+  margin-top: 20px;
+}
+
+.list-item span {
+  flex: 1; 
+  text-align: center; 
+  cursor: pointer; 
+}
